@@ -1,0 +1,4 @@
+litellm
+pydantic
+tqdm
+python-dotenv
