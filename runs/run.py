@@ -13,7 +13,7 @@ def litellm_generate(
     model: str,
     temperature: Optional[float] = None,
     max_tokens: Optional[int] = None,
-    judging_mode: Optional[bool] = False,
+    judging_mode: Optional[bool] = True,
     top_p: Optional[float] = None,
 ):
     """
