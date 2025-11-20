@@ -26,7 +26,7 @@ def litellm_generate(
         max_tokens (Optional[int], optional): The maximum number of tokens to generate.
             Defaults to None.
         judging_mode (Optional[bool], optional): Whether to use judging mode (with
-            temperature=0.0 and top_p=0.7). Defaults to False.
+            temperature=0.0 and top_p=0.7). Defaults to True.
         top_p (Optional[float], optional): The top-p parameter.
             Defaults to None.
     Returns:
